@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Toronto Tour Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Categories -->
+    <string name="restaurants" translatable="true">restaurants</string>
+    <string name="shopping" translatable="true">shopping</string>
+    <string name="nightlife" translatable="true">nightlife</string>
+    <string name="attractions" translatable="true">attractions</string>
+
+
+
+</resources>
