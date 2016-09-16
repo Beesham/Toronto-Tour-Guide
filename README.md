@@ -3,6 +3,9 @@ Toronto Tour Guide
 
 This app displays lists of interesting places to visit in Toronto, Canada.
 
+![screenshot sep 15 2016 7-12-53 pm](https://cloud.githubusercontent.com/assets/10713096/18570520/55a994ac-7b70-11e6-941c-bb04dfb21544.png)
+
+
 Pre-requisites
 --------------
 
