@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Attractions -->
+    <string-array name="attractions">
+        <item name="cn_tower">CN Tower</item>
+        <item name="royal_ontario_museum">Royal Ontario Museum</item>
+        <item name="casa_loma">Casa Loma</item>
+        <item name="ripleys_aquarium">Ripley\'s Aquarium</item>
+        <item name="toronto_zoo">Toronto Zoo</item>
+        <item name="ontario_science_centre">Ontario Science Centre</item>
+        <item name="art_gallery_ontario">Art Gallery of Ontario</item>
+    </string-array>
+
+    <string-array name="attractions_locations">
+        <item name="cn_tower">geo:0,0?q=CN Tower Toronto,ON M5V2T6</item>
+        <item name="royal_ontario_museum">geo:0,0?q=royal ontario museum,Toronto,ON</item>
+        <item name="casa_loma">geo:0,0?q=casa loma,Toronto,ON</item>
+        <item name="ripleys_aquarium">geo:0,0?q=ripley\'s aquarium,Toronto,ON</item>
+        <item name="toronto_zoo">geo:0,0?q=toronto zoo,Toronto,ON</item>
+        <item name="ontario_science_centre">geo:0,0?q=ontario science centre,Toronto,ON</item>
+        <item name="art_gallery_ontario">geo:0,0?q=art gallery ontario,Toronto,ON</item>
+    </string-array>
+
+    <!-- Reataurants -->
+    <string-array name="restaurants">
+        <item name="lavelle">Lavelle</item>
+        <item name="luma">Luma</item>
+        <item name="canoe">Canoe</item>
+        <item name="the_one_eighty">The One Eighty</item>
+        <item name="restaurant_cn_tower">Restaurant at the CN Tower</item>
+        <item name="barque_smokehouse">Barque Smokehouse</item>
+        <item name="amsterdam_brewhouse">Amsterdam Brewhouse on the Lake</item>
+    </string-array>
+
+    <string-array name="restaurants_locations">
+        <item name="lavelle">geo:0,0?q=Lavelle,Toronto,ON</item>
+        <item name="luma">geo:0,0?q=Luma,Toronto,ON</item>
+        <item name="canoe">geo:0,0?q=Canoe,Toronto,ON</item>
+        <item name="the_one_eighty">geo:0,0?q=The One Eighty,Toronto,ON</item>
+        <item name="restaurant_cn_tower">geo:0,0?q=360 Restaurant CN Tower,Toronto,ON</item>
+        <item name="barque_smokehouse">geo:0,0?q=Barque Smokehouse,Toronto,ON</item>
+        <item name="amsterdam_brewhouse">geo:0,0?q=Amsterdam Brewhouse,Toronto,ON</item>
+    </string-array>
+
+    <!-- Nightlife -->
+    <string-array name="nightlife">
+        <item name="the_rex">The Rex</item>
+        <item name="madison_avenue_pub">Madison Avenue Pub</item>
+        <item name="coda">CODA</item>
+        <item name="comfort_zone">Comfort Zone</item>
+        <item name="the_ballroom">The Ballroom</item>
+        <item name="ace_nightclub">Ace Nightclub</item>
+        <item name="musik">Musik</item>
+    </string-array>
+
+    <string-array name="nightlife_locations">
+        <item name="the_rex">geo:0,0?q=THe Rex,Toronto,ON</item>
+        <item name="madison_avenue_pub">geo:0,0?q=Madison Avenue Pub,Toronto,ON</item>
+        <item name="coda">geo:0,0?q=CODA,Toronto,ON</item>
+        <item name="comfort_zone">geo:0,0?q=Comfort Zone,Toronto,ON</item>
+        <item name="the_ballroom">geo:0,0?q=The Ballroom,Toronto,ON</item>
+        <item name="ace_nightclub">geo:0,0?q=Ace Nightclub,Toronto,ON</item>
+        <item name="musik">geo:0,0?q=Musik nightclub,Toronto,ON</item>
+    </string-array>
+
+    <!-- Shopping -->
+    <string-array name="shopping">
+        <item name="toronto_eaton_centre">Toronto Eaton Centre</item>
+        <item name="yorkdale_shopping_centre">Yorkdale Shopping Centre</item>
+        <item name="vaughan_mills">Vaughan Mills</item>
+        <item name="square_one">Square One</item>
+        <item name="sherway_gardens">Sherway Gardens</item>
+        <item name="dixie_outlet_mall">Dixie Outlet Mall</item>
+        <item name="toronto_premium_outlets">Toronto Premium Outlets</item>
+    </string-array>
+
+    <string-array name="shopping_locations">
+        <item name="toronto_eaton_centre">geo:0,0?q=Toronto Eaton Centre ,Toronto,ON</item>
+        <item name="yorkdale_shopping_centre">geo:0,0?q=Yorkdale Shopping Centre,Toronto,ON</item>
+        <item name="vaughan_mills">geo:0,0?q=Vaughan Mills,Toronto,ON</item>
+        <item name="square_one">geo:0,0?q=Square One,Toronto,ON</item>
+        <item name="sherway_gardens">geo:0,0?q=Sherway Gardens,Toronto,ON</item>
+        <item name="dixie_outlet_mall">geo:0,0?q=Dixie Outlet Mall,Toronto,ON</item>
+        <item name="toronto_premium_outlets">geo:0,0?q=Toronto Premium Outlets,Toronto,ON</item>
+    </string-array>
+
+</resources>

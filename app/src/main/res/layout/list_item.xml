@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="88dp"
+    android:id="@+id/category_linearlayout"
+    xmlns:tools="http://schemas.android.com/tools">
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/item_imageview"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:id="@+id/placetitle_textview"
+        android:layout_width="240dp"
+        android:layout_height="88dp"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:fontFamily="sans-serif"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@+id/item_imageview"
+        android:layout_toLeftOf="@+id/icon_imageview"
+        android:layout_toRightOf="@+id/item_imageview"
+        android:layout_toEndOf="@+id/item_imageview" />
+
+    <ImageView
+        android:id="@+id/icon_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:padding="16dp"
+        android:src="@drawable/ic_location_on_white_24dp"
+        android:layout_alignBottom="@+id/placetitle_textview"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
