@@ -45,9 +45,9 @@ public class RestaurantsFragment extends Fragment {
                     placeNameArrayList.get(i),
                     placeLocationArrayList.get(i),
                     getResources().getIdentifier(placeNameArrayList.get(i)  //Instead of creating another array list, re-use the names and replaces the special characters
-                            .replace(" ","_")
-                            .replace("'","")
-                            .toLowerCase(), "drawable", getActivity().getPackageName())));
+                            .replace(getString(R.string.blank_space),getString(R.string.underscore))
+                            .replace(getString(R.string.apostrophe),getString(R.string.nothing))
+                            .toLowerCase(), getString(R.string.drawable), getActivity().getPackageName())));
         }
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);

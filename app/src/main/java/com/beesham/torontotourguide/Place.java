@@ -23,33 +23,12 @@ public class Place {
         return mTitle;
     }
 
-    public void setmTitle(String mTitle) {
-        this.mTitle = mTitle;
-    }
-
     public int getmImageResourceId() {
         return mImageResourceId;
-    }
-
-    public void setmImageResourceId(int mImageResourceId) {
-        this.mImageResourceId = mImageResourceId;
     }
 
     public String getmGeoLocation() {
         return mGeoLocation;
     }
 
-    public void setmGeoLocation(String mGeoLocation) {
-        this.mGeoLocation = mGeoLocation;
-    }
-
-    @Override
-    public String toString() {
-        return "Place{" +
-                "mTitle='" + mTitle + '\'' +
-                ", mImageResourceId=" + mImageResourceId +
-                ", mGeoLocation='" + mGeoLocation + '\'' +
-                ", mContext=" + mContext +
-                '}';
-    }
 }
