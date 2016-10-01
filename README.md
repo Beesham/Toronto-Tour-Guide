@@ -5,6 +5,14 @@ This app displays lists of interesting places to visit in Toronto, Canada.
 
 ![screenshot sep 15 2016 7-12-53 pm](https://cloud.githubusercontent.com/assets/10713096/18570520/55a994ac-7b70-11e6-941c-bb04dfb21544.png)
 
+Key Concepts applied
+--------------------
+- Planning your app design and navigation before coding.
+- Selecting proper data structures to store lists of information.
+-	Building layouts to display those lists of data.
+-	Navigating between those lists using intents and multiple Activities or a ViewPager.
+-	Creating your own custom classes.
+-	Properly handling images or audio (if applicable).
 
 Pre-requisites
 --------------
